@@ -1,0 +1,12 @@
+package cars;
+
+import components.CarEngine;
+import components.Navigation;
+import components.Stereo;
+import components.Tyres;
+
+public class PetrolCar extends Car {
+    public PetrolCar(CarEngine engine, Tyres tyres, Stereo stereo, Navigation navigation, double price, String colour, int age) {
+        super(engine, tyres, stereo, navigation, price, colour, age);
+    }
+}
